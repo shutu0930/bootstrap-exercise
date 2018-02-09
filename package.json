@@ -4,9 +4,23 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "./node_modules/.bin/browser-sync start --server --no-notify --files='index.html, *.css, *.js'"
+    "start": "browser-sync start --server --no-notify --files='index.html, *.css, *.js'"
   },
   "dependencies": {
     "browser-sync": "^2.23.6"
-  }
+  },
+  "devDependencies": {
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-util": "^3.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shutu0930/bootstrap4-exercise.git"
+  },
+  "author": "Shu",
+  "bugs": {
+    "url": "https://github.com/shutu0930/bootstrap4-exercise/issues"
+  },
+  "homepage": "https://github.com/shutu0930/bootstrap4-exercise#readme",
+  "description": ""
 }
